@@ -1,0 +1,10 @@
+^D:\REPOZITORGIT\BATTLECITY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/repozitorGit/BattleCity -BD:/repozitorGit/BattleCity/build --check-stamp-file D:/repozitorGit/BattleCity/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

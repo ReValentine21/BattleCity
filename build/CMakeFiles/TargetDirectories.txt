@@ -1,0 +1,3 @@
+D:/repozitorGit/BattleCity/build/CMakeFiles/BattleCity.dir
+D:/repozitorGit/BattleCity/build/CMakeFiles/ALL_BUILD.dir
+D:/repozitorGit/BattleCity/build/CMakeFiles/ZERO_CHECK.dir
